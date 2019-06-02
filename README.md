@@ -16,7 +16,7 @@ The preferences of user is in the folder maps/user
 
 # How to launch the GUI
 
-For example, the following command visualizes all sandwich restaurants and their predicted ratings for the user who likes_expensive restaurants:
+For example, the following command visualizes all sandwich restaurants and their predicted ratings for the user who likes_expensive restaurants that has sandwiches with 2-means clustering :
 
 ```
 python3 recommend.py -u likes_expensive -k 2 -p -q Sandwiches
